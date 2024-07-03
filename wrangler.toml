@@ -20,6 +20,7 @@ routes = [
   { pattern = "docker-k8s.ispider.io", custom_domain = true },
   { pattern = "docker-ghcr.ispider.io", custom_domain = true },
   { pattern = "docker-cloudsmith.ispider.io", custom_domain = true },
+  { pattern = "docker-ecr.ispider.io", custom_domain = true },
 ]
 
 [env.production.vars]
